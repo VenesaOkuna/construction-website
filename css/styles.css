@@ -1,17 +1,36 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
+body{
+    background: url(https://images.pexels.com/photos/752688/pexels-photo-752688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.header ul{
+    text-align: center;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a{
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-  
+    text-decoration: none;
+    text-transform: none;
+    color: #083155;
+    font-size: 17px;
+    font-family: ;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+
+.header ul li a:hover{
+    background-color: rgb(254,233,122);
+}
