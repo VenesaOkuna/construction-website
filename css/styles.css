@@ -34,3 +34,41 @@ body{
 .header ul li a:hover{
     background-color: rgb(254,233,122);
 }
+
+.boxcontainer{
+    margin: auto;
+    margin-top: 20%;
+    position: fixed;
+    width: 300px;
+    height: 38px;
+    padding: 0px 10px;
+    right: 4%;
+    bottom: 87.5%;
+}
+
+.elementcontainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: auto;
+}
+
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family:"nunito";
+    color: #083155;
+    font-weight: 500;
+}
+
+.seach:focus{
+    outline: none;
+}
+
+.material-icons-outlined{
+    font-size: 25;
+    color: #083155;
+}
