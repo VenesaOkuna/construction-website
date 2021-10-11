@@ -1,0 +1,45 @@
+body{
+    background-image: url("construction.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px 5px chocolate;
+}
+
+form{
+
+background-color: #F0B35B; 
+height: auto; 
+text-align: center;
+width:60%;
+margin-right: auto;
+margin-left: auto;
+border-radius: 20px;
+border-radius: 20px;
+margin-bottom:30px;
+margin-top:80px;
+
+}
+input[type=text],[type=email],[type=tel],[type=password]{
+    margin-bottom:20px;
+
+    height:30px;
+    width:180px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border:1px solid blue;
+}
+input[type=submit]{
+    width:70px;
+    height:30px;
+    margin-top:10px;
+    border-radius: 20px;
+    border:1px solid blue;
+    background-color: green;
+    color:white;
+    
+}
