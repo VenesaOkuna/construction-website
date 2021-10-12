@@ -1,11 +1,13 @@
 /* ===About us Section=== */
+body{
+}
 *{
-    color: black;
-    background-repeat: no-repeat;
+    color: #FEE97A;
+    
 }
 .about h5{
     font-size: 24px;
-    color: #083156;
+    color: #000000;
 }
 .about .title-border{
     width: 30%;
@@ -17,8 +19,17 @@
     margin-left: 35%;
 }
 .about p{
-    font-size: 18px;
-    color: black;
+    font-size: 25px;
+    color: #083156;
+}
+.Au.is{
+    background-color: blue;
+}
+#delivery{
+    color: #000000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 /* ===End of About Us=== */
