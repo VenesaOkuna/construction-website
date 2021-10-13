@@ -1,12 +1,14 @@
 /* styling navlinks */
 #navlinks ul{
-    text-align: center;
+    
     position: fixed;
 }
 
 #navlinks ul li{
     list-style: none;
     display: inline-block;
+    text-align: center;
+
 }
 
 #navlinks ul li a{
@@ -20,6 +22,9 @@
     padding: 25px;
     transition: all ease 0.5s;
 }
+#navlinks{margin-left: 400px;
+    
+}
 
 .header ul li a:hover{
     background-color: rgb(254,233,122);
@@ -30,6 +35,7 @@ header{background-image: url(https://images.unsplash.com/photo-1504917595217-d4d
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
+    /* margin: 100%; */
 
 }
 .boxcontainer{
@@ -138,6 +144,9 @@ header{background-image: url(https://images.unsplash.com/photo-1504917595217-d4d
     margin-right: 50px;
     
 }
+.contactdetails>h4{
+    text-align: center;
+}
 .maps{
     display: inline-flex;
     flex-direction: row;
@@ -204,3 +213,45 @@ form, #subject{
     position: relative;
     left:15%;
 }
+.customers{
+    margin-top: 350px;
+}
+.customers>h3{
+    text-align: center;
+}
+/* body{
+    margin: 5%;
+} 
+/* #slider {
+    position: relative;
+    width: 500px;
+    height: 265px;
+  
+    overflow:scroll;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  #slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+  #slider ul li {
+    position: relative;
+    height: 100%;
+  
+    float: left;
+  }
+  */
+  #slider  img{
+    width: 165px;
+    height: 150px;
+  } 
+  #slider{
+      padding: 30px;
+  }
+ 
