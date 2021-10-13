@@ -1,4 +1,14 @@
+body{
+    overflow-x: hidden;
+    
+    
+}
+
+
+
+
 /* styling navlinks */
+
 #navlinks ul{
     
     position: fixed;
@@ -8,6 +18,7 @@
     list-style: none;
     display: inline-block;
     text-align: center;
+   
 
 }
 
@@ -21,6 +32,7 @@
     font-weight: 600;
     padding: 25px;
     transition: all ease 0.5s;
+  
 }
 #navlinks{margin-left: 400px;
     
@@ -36,6 +48,10 @@ header{background-image: url(https://images.unsplash.com/photo-1504917595217-d4d
     background-size: 100%;
     position: relative;
     /* margin: 100%; */
+    margin-top: 0;
+    /* width: 100%;
+    height: 100%; */
+    overflow-y: hidden;
 
 }
 .boxcontainer{
@@ -90,7 +106,7 @@ header{background-image: url(https://images.unsplash.com/photo-1504917595217-d4d
     left: 10%;
     bottom: 85%;
 }
-.getintouch{padding-top: 500px;}
+.getintouch{padding-top: 350px;}
 /* .getintouch{
 
     background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uc3RydWN0aW9uJTIwd29ya3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);image-resolution: 100%;
@@ -129,6 +145,8 @@ header{background-image: url(https://images.unsplash.com/photo-1504917595217-d4d
 }
 .text>h3{
     font-size: 50px;
+    color: rgb(254,233,122);
+    opacity: 0.8;
 }
 .text>p{
     font-size: 25px;
@@ -136,16 +154,27 @@ header{background-image: url(https://images.unsplash.com/photo-1504917595217-d4d
 /* styling contactdetails */
 .message>h4{
     text-align: center;
-}
+    font-size: x-large;
+    color: #082035;
+    opacity: 0.8;
+    }
 .contactdetails{
     margin-top: 50px;
-    padding-right: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    /* padding-right: 50px; */
+    /* margin-left: 0px;
+    margin-right: 0px; */
+     /* margin: 5%;  */
+     width: 100%;
+    height: 70%; 
+    /* background-color: blue;  */
+    justify-content: space-around;
+   
+    
     
 }
 .contactdetails>h4{
     text-align: center;
+    font-size: x-large;
 }
 .maps{
     display: inline-flex;
@@ -162,15 +191,12 @@ header{background-image: url(https://images.unsplash.com/photo-1504917595217-d4d
     margin-left: 30px;
     margin-right: 50px;
 }
-html,body{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .fill{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    margin-left: 30%;
 }
 form, #fname{
     width: 70%;
@@ -200,8 +226,9 @@ form, #subject{
 .form{
     margin-top: 20px;
     margin-bottom: 150px;
-    position: relative;
-    left: 10%;
+    width: 80%;
+    
+    
 }
 
     
@@ -211,17 +238,29 @@ form, #subject{
 }
 .message>p{
     position: relative;
-    left:15%;
+    left:40%;
 }
 .customers{
-    margin-top: 350px;
+    margin-top: 500px;
+    position: relative;
+    box-sizing: border-box;
+    width: 80%;
+    height: 30%;
+    /* background-color: rgb(212, 206, 206); */
+    margin-left: 150px;
+    
+
 }
 .customers>h3{
     text-align: center;
+    font-size: x-large;
+    color: #082035;
+    opacity: 0.8;
 }
-/* body{
-    margin: 5%;
-} 
+ /* body{
+    align-content: center;
+    box-sizing: border-box;
+}  */
 /* #slider {
     position: relative;
     width: 500px;
@@ -250,8 +289,84 @@ form, #subject{
   #slider  img{
     width: 165px;
     height: 150px;
+    justify-content: space-around;
+    display: inline flex;
+    
   } 
   #slider{
       padding: 30px;
   }
+  .footer{
+        display: inline-flex;
+        
+        background-color:gainsboro;
+        /* opacity: 0.1; */
+        flex-direction: row;
+        
+        
+
+        margin-top: 40px;
+        margin-left: 95px;
+    margin-right: 0px;
+    width: 1252px;
+    color:black;
+    opacity: 0.5;
+    
+    
+
+
+
+    }
+    .days{
+        border-right: dotted gray ;
+        padding-top: 50px;
+        padding-left: 25px;
+        padding-bottom: 70px;
+        padding-right: 40px;
+    }
+    .ourservices{
+        padding-left: 50px;
+        padding-top: 100px;
+       margin-left: 20px;
+
+    }
+    .ourservices{
+        padding: 80px;
+    }
+    li{
+        list-style-type: square;
+    }
+    ul{
+        padding: 20px;
+    }
+    .days p:nth-child(2){
+        padding-top: 40px;
+    }
+    .follow{
+        margin-left: 250px;
+        padding-left: 120px;
+        padding-top: 100px;
+        padding-right: 10px;
+    }
+    .fin>button{
+    margin-top: 150px;
+    margin-right: 10px;
+margin-left: 25px;
+    }
+.button{
+    background-color:#082035;
+    opacity: 0.6;
+width:60px;
+
+padding: 8px 20px;
+
+border: none;
+color: white;
+font-size: 10px;
+font-weight: 700;
+margin-bottom: 50px;
+}
+
+
+
  
