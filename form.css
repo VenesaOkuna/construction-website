@@ -1,0 +1,43 @@
+h2{
+    text-align: center;
+}
+body{
+    background-color: turquoise;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: yellow;
+}
+    form{
+
+        background-color: rgba(240, 178, 91, 0.53);
+        height: 370px; 
+        text-align: center;
+        width:20%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 20px;
+        border-radius: 20px;
+        margin-bottom:30px;
+        margin-top:80px;
+        }
+        input[type=text],[type=email],[type=tel],[type=password]{
+            margin-bottom:20px;
+            height:30px;
+            width:180px;
+            padding-left: 10px;
+            border-radius: 20px;
+            border:1px solid blue;
+            padding: 20px;
+        }
+        input[type=submit]{
+            width:70px;
+            height:30px;
+            margin-top:10px;
+            border-radius: 20px;
+            border:1px solid blue;
+            background-color: blue;
+            color:white;
+            
+        }

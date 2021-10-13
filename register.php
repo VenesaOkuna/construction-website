@@ -8,13 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="register.css">
     <title>Register</title>
-   
+    <style>
+        
+    </style>
 </head>
 
 <body>
-    <h1><i>Welcome to our construction site<i></h1>
+    <img src="logo image.png">
+
+    <img src="logo.png">
+    <h1><i>construction problem solvers<i></h1>
+
     <form action="confirmregister.php" method="POST" autocomplete="off">
-    <h1>Sign Up form</h1>
+    <h1></h1>
     <label>Username</label><br>
 <input type="text" name="username" placeholder="Write your name" required><br>
 
