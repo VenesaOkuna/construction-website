@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="search.js"></script>
     <title>weBUILD</title>
 
 
@@ -12,18 +13,22 @@
     <div class="header">
         
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">About Us</a></li>
-        <li><a href="#">Materials</a></li>
+        <li><a href="#"> Material</a></li>
         <li><a href="#">Contact us</a></li>
+        
       </ul>
+
+
+      
     </div>
 
 <div class="boxcontainer">
     <table class="elementcontainer">
         <tr>
             <td>
-                <input type="text" placeholder="search" class="search"
+                <input id="searchbar" type="text" placeholder="search" class="search" onkeyup="search_content()"
              </td>
             <td>
                 <a href="#"><span class="material-icons-outlined">
@@ -43,17 +48,61 @@
 
 <body>
     
-<div id="slider">
+<div id="column">
     <figure>
-        <img src="css/bricks.jpeg" alt="bricks">
-        <img src="css/cement.jpeg" alt="cement">
-        <img src="css/cementmixer.jpeg" alt="cement mixer">
-        <img src="css/sand.jpeg" alt="sand">
-        <img src="css/bricks.jpeg" alt="bricks">
+        <img class="one" src="css/bricks.jpeg" alt="bricks">
+        <img class="two" src="css/cement.jpeg" alt="cement">
+        <img class="three" src="css/cementmixer.jpeg" alt="cement mixer">
+        <img class="four" src="css/sand.jpeg" alt="sand">
+        <img src="css/steel.jpeg" alt=" steel">
 
     </figure>
-
+    <h1>WELCOME</h1>
+    <article>
+        Combining knowledge and expertise with the latest design software and manufacturing equipment, we enable our clients to build efficient, high-quality homes, faster.
+    </article>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1> WHY<span class="yellow"> US </span>?</h1>
+    <br>
+    <article>We are different because of our people,
+         We believe in quality over quantity. We are here for you
+          to satisfy your construction needs. <br>
+          <br>
+          <br>
+          SERVICES
+          <br>
+          <br>
+    
+    <div class="services"> 
+    <img src="css/buildingconstruction.png" alt="">
+    <img src="css/renovationworks.png" alt="">
+    <img src="css/electromechanicalworks.png" alt="">
+    <img src="css/landscapingworks.png" alt="">
 </div>
+<div class="text">
+    <a href="building_construction.html"><p class="SERVICE"> Building Construction </p></a>
+    <a href="renovation.html"><p class="SERVICE"> Renovation/ Rehabilitation </p></a>
+    <a href="electromechanical.html"><p class="SERVICE"> Electro Mechanical </p></a>
+    <a href="landscaping.html"><p class="SERVICE"> Landscaping</p></a>
+</div>
+  <br>
+  weBUILD, Tegemeo lako wa Ujenzi.
+</article>
+</div>
+
+<section class="testimonials">
+    <div class="testimony1"></div>
+    <div class="testimony2"></div>
+    <div class="testimony3"></div>
+    <div class="testimony4"></div>
+
+
+</section>
+
+
 
 </body>
 </html>
