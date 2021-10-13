@@ -6,40 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ContactUs</title>
     <link rel="stylesheet" href="css/ContactUs.css">
+    <header>
+        
+        <div class="intro" id="navlinks">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Materials</a></li>
+                <li><a href="">Contact Us</a></li>
+                
+            </ul>
+        </div>
+        <div class="boxcontainer">
+            <table class="elementcontainer">
+                <tr>
+                    <td>
+                        <input type="text" placeholder="search" class="search">
+                     </td>
+                    <td>
+                        <a href="#"><span class="material-icons-outlined">
+                            
+                            </span></a>
+                    </td>
+                </tr>
+            </table>
+        
+            <div class="logo">
+        <img class="logoimage" src="logo.png" alt="building clip art">
+        <img class="logowords" src="wordslogo.png" alt="word weBUILD">
+            </div>
+        </div>
+    </header>
+    
 </head>
 <body>
     <!-- Navigation links -->
-    <header>
-        
-    <div class="intro" id="navlinks">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Materials</a></li>
-            <li><a href="">Contact Us</a></li>
-            
-        </ul>
-    </div>
-    <div class="boxcontainer">
-        <table class="elementcontainer">
-            <tr>
-                <td>
-                    <input type="text" placeholder="search" class="search">
-                 </td>
-                <td>
-                    <a href="#"><span class="material-icons-outlined">
-                        
-                        </span></a>
-                </td>
-            </tr>
-        </table>
     
-        <div class="logo">
-    <img class="logoimage" src="logo.png" alt="building clip art">
-    <img class="logowords" src="wordslogo.png" alt="word weBUILD">
-        </div>
-    </div>
-
     <!-- second div -->
     <div class="getintouch">
         
@@ -48,7 +50,7 @@
         <P>You Dream It-We Build It!<br>Contact Us to Start Your Project</P>
     </div>
     </div>
-</header>
+
     <!-- contact details & google maps  -->
     <div class="contactdetails">
         <h4>Our Offices</h4>
@@ -99,7 +101,7 @@
         <input type="text" id="email" name="Email" placeholder="Email"><br><br>
         <label for="Message">Message</label><br>
         <textarea id="subject" name="subject" placeholder="Your Message" style="height:100px;"></textarea><br><br><br>
-        <input type="send message" value="send message">
+        <input type="send message" id="send" value="send message">
         </form>
         </div>
     </div>
