@@ -331,8 +331,9 @@ form,#send{border-radius: 10pt;
     width: 100%;
     color:black;
     opacity: 0.5;
+    padding-top: 10px;
      }
-    .days{
+    .icons{
         border-right: dotted gray ;
         padding-top: 50px;
         padding-left: 25px;
