@@ -1,0 +1,43 @@
+/* ===About us Section=== */
+*{
+    color: #FEE97A;
+    
+    
+}
+.about h5{
+    font-size: 24px;
+    color: #083156;
+}
+.about .title-border{
+    width: 30%;
+    height: 2px;
+    display: block;
+    background-color: #083156;
+    border-radius: 50px;
+    margin: 1%;
+    margin-left: 35%;
+}
+.about p{
+    font-size: 20px;
+    color: #000000;
+    font-family: ;
+    
+}
+#delivery{
+    color: #000000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+#dv{
+    margin-left: 45%;
+}
+.itm{
+    background-color: grey;
+    width: 320px;
+    height: 400px;
+    font-size: 5px;
+    margin: 5px;
+}
+
+/* ===End of About Us=== */
